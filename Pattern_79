@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+    int i,j,k;
+    int d1=1;
+    int n=4;
+    int d2=(n*n)+1;
+    for(i=n;i>=1;i--){
+        for(k=1;k<=i;k++){
+            printf("%2d",d2);
+            d2++;
+        }
+        d2--;
+        d2=d2-((i-1)*2);
+        printf("\n");
+    }
+}
+
