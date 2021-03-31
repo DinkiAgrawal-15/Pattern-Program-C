@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+
+    
+    int n=10;
+    int i,j,k;
+    for(i=n;i>=1;i--){
+        k=i;
+        for(j=1;j<=i;j++){
+            printf("%7d",k);
+            k=k+(n-j);
+        }
+        printf("\n");
+    }
+    
+    
+    }
