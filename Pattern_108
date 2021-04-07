@@ -1,6 +1,5 @@
-import java.util.*;
-class Main{
-public static void main(String a[]){
+#include<stdio.h>
+int main(){
     int n=5;
     int i,j,s;
     int x=1,y,t;
@@ -8,19 +7,19 @@ public static void main(String a[]){
         y=i;
         t=x;
         for(s=1;s<i;s++){
-                            System.out.printf(" ");
+                            printf(" ");
 
         }
         for(j=n;j>=i;j--){
-                System.out.printf("%2d",t);
+                printf("%2d",t);
                 t=t-y;
                 y++;
                 
             }
             x=x+i;
-                System.out.printf("\n");
-            }
-        
+                printf("\n");
+            
     }
+    return 0;
 
 }
